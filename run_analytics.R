@@ -24,13 +24,6 @@ subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt", header = 
 features_test  <- read.table("UCI HAR Dataset/test/X_test.txt", header = FALSE)
 features_train <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE)
 
-# This is here to double check that all *train tables are equivelant and all *test tables are equivelant.
-# For debugging only
-row_match <- data.frame(c("Atest","Atrain","Stest","Strain","Ftest","Ftrain"),c(nrow(activity_test), nrow(activity_train),
-                                                                                nrow(subject_test), nrow(subject_train),
-                                                                                nrow(features_test), nrow(features_train))
-)
-
 # Combine activity, subject and features sets
 activity <- rbind(activity_test, activity_train)
 subject <- rbind(subject_test, subject_train)
