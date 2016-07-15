@@ -16,13 +16,14 @@ See ReadMe.md file for running instructions.
 ## Identifiers:
 1. subject - Subject ID number
 2. activity - Activity level, described below
+    
     Activity Descriptors:
-    1. WALKING
-    2. WALKING_UPSTAIRS
-    3. WALKING_DOWNSTAIRS
-    4. SITTING
-    5. STANDING
-    6. LAYING
+    1 WALKING
+    2 WALKING_UPSTAIRS
+    3 WALKING_DOWNSTAIRS
+    4 SITTING
+    5 STANDING
+    6 LAYING
 
 ## Measurements
 
