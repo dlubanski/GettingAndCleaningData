@@ -1,11 +1,11 @@
-## Codebook for Coursera's Getting and Cleaning Data class' final project
+# Codebook for Coursera's Getting and Cleaning Data class' final project
 
 Data obtained from:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 See ReadMe.md file for running instructions.
 
-# Original columns were renamed for clarity.  
+## Original columns were renamed for clarity.  
 1. Empty parenthesis in variable names were removed
 2. variables beginning with t > now begin with Time
 3. f > Frequency
@@ -13,18 +13,19 @@ See ReadMe.md file for running instructions.
 5. Acc > Accelerometer
 6. Gyro > Gyroscope
 
-# Identifiers:
+## Identifiers:
 1. subject - Subject ID number
 2. activity - Activity level, described below
-# Activity Descriptors:
-1. WALKING
-2. WALKING_UPSTAIRS
-3. WALKING_DOWNSTAIRS
-4. SITTING
-5. STANDING
-6. LAYING
+    Activity Descriptors:
+    1. WALKING
+    2. WALKING_UPSTAIRS
+    3. WALKING_DOWNSTAIRS
+    4. SITTING
+    5. STANDING
+    6. LAYING
 
-# Measurements
+## Measurements
+
 TimeBodyAccelerometer-mean-X
 TimeBodyAccelerometer-mean-Z
 TimeBodyAccelerometer-std-Y
@@ -93,4 +94,3 @@ FrequencyBodyBodyGyroscopeMagnitude-std
 FrequencyBodyBodyGyroscopeJerkMagnitude-std
 
 Final file, tidydata.txt, outputs the mean of all columns.
-
